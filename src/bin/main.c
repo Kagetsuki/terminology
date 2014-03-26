@@ -3126,7 +3126,12 @@ remote:
 
    ty_dbus_init();
 
+
+   miniview_init();
+
    elm_run();
+
+   miniview_shutdown();
 
    app_server_shutdown();
 
